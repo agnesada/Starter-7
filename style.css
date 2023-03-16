@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM Sans, sans-serif;
+    
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: DM Sans, sans-serif;
+    color: #1E0E62;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.nav-item{
+    color: #1E0E62;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: DM Sans, sans-serif;
+}
+
+
+
+.nav-btn2{
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    padding: 5px 18px;
+    font-weight: 400;
+    font-size: 16px;
+    background: white;
+    font-family: DM Sans, sans-serif;
+}
+
+.nav-btn2:hover{
+    background: #7058f8
+}
+
+.nav-btn2{
+    background: #482BE7;
+    border-radius: 100px;
+    color: white;
+}
+
+
+.hero-btn{
+    background: #25DAC5;
+    border: 0;
+    border-radius: 100px;
+    color: #fff;
+    padding: 12px 27px;
+}
+
+.hero-btn-link{
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    padding: 12px 35px;
+    color: #1E0E62;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: DM Sans;
+    background-color: transparent;
+}
+
+.head-image{
+    width: 100%;  
+}
+
+.para-item{
+    color: #bebed0;
+    
+
+}
+
+.head-item{
+    font-size: 58px;
+    color: #1E0E62;
+    margin-top: 20%;
+}
+
+@media screen and(max-width: 900px) {
+    br{
+        display: none;
+    }
+
+    .para-item{
+        font-size: 1px !important;
+    }
+
+    .head-image{
+        font-size: 32px !important;
+    }
+}
